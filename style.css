@@ -1,0 +1,60 @@
+body {
+  background-color: gray;
+}
+
+.hamburgerMenu {
+  list-style-type: none;
+  width: 100px;
+  height: 15px;
+  background-color: black;
+  margin: 10px 0 0 0;
+  border-radius: 33%;
+}
+
+#hamburger {
+  width: 100px;
+  height: 65px;
+  padding-left: 5px;
+}
+
+#menu {
+  position: absolute;
+  width: 50%;
+  background: white;
+  list-style-type: none;
+  transform-origin: -100% 0;
+  transform: translate(-100%, 0);
+}
+
+.menu-item {
+  width: 95%;
+  height: 100px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.home {
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+#colourText {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
